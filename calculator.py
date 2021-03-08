@@ -70,11 +70,13 @@ class CashCalculator(Calculator):
     def get_today_cash_remained(self, currency):
         today_spend = self.get_today_stats()
         balance = self.limit - today_spend
+        eur_rub = 88.59
+        usd_rub = 74.35
         if currency == 'eur':
-            balance = round((balance / 88.59), 3)
+            balance = round((balance / eur_rub), 3)
             balance = str(balance) + " EUR"
         elif currency == 'usd':
-            balance = round((balance / 74.35), 3)
+            balance = round((balance / usd_rub), 3)
             balance = str(balance) + " USD"
         elif currency == 'rub':
             balance = str(balance) + " RUB"
