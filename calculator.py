@@ -118,9 +118,9 @@ calories = CaloriesCalculator(calc_limit)
 add_stat(99, comment='Бутеры')
 add_stat(1000, comment='Чай')
 add_stat(900, comment='Сок')
-add_stat(1123, date='01.03.21', comment='Алкоголь')
-add_stat(10000, date='04.03.21', comment=' Шлюхи')
-add_stat(1000000, date='20.02.98', comment='Элитные Шлюхи')
+add_stat(1123, date='01.03.21', comment='Обед')
+add_stat(10000, date='04.03.21', comment=' Телефон')
+add_stat(1000000, date='20.02.98', comment='Машина')
 
 # Вызов функций проверки и показа статистики
 calc.show_today_stats()
