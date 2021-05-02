@@ -80,7 +80,7 @@ class CashCalculator(Calculator):
             balance = str(balance) + " USD"
         elif currency == 'rub':
             balance = str(balance) + " RUB"
-        elif currency != 'rub':
+        else:
             return print('Enter valid currency')
 
         if self.limit > today_spend:
